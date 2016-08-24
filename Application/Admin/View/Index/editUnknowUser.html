@@ -1,0 +1,110 @@
+
+            <include file="Application/Admin/View/Index/sidebar.html" />
+
+
+    <!-- sidebar end -->
+
+    <!-- content start -->
+    <div class="admin-content">
+
+        <div class="am-cf am-padding">
+            <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">签到用户</strong> / <small>编辑信息</small></div>
+        </div>
+
+        <div class="am-g am-g-fixed">
+            <div class="am-u-sm-12  am-u-sm-centered">
+
+                <form class="am-form" method="post" action="__ROOT__/?s=/Admin/Index/checkEditUnknowUser"
+                      enctype="multipart/form-data" >
+                    <fieldset>
+
+                        <input type="hidden" class="" name="id"  value="{$id}" >
+                        <div class="am-form-group">
+                            <label >真实姓名<a style="color: #4b59ff"> </a></label>
+                            <input type="text" class="" name="real" value="{$name}" placeholder="输入真实姓名">
+                        </div>
+                        <div class="am-form-group">
+                            <label >头像<a style="color: #4b59ff"> </a></label><br>
+                            <img src="{$avatar_url}" style="width:80px;height:80px;">
+                        </div>
+
+                        <div class="am-form-group">
+                            <label for="doc-ipt-phone-1">手机号码<a style="color: #4b59ff">  </a></label>
+                            <input type="number" class="" name="phone" id="doc-ipt-phone-1" value="{$phone}" placeholder="输入手机号码">
+                        </div>
+                        <div class="am-form-group">
+                            <label for="doc-ipt-phone-1">选择身份(嘉宾不参与抽奖!)<a style="color: #4b59ff">  </a></label><br/>
+                            <select id="status-select" style="width:100px;" name="status" value="{$status}">
+                                <option value="{$status}" >{$status}</option>
+                                <if condition="$status eq '嘉宾' ">
+                                    <option value="员工">员工</option>
+                                    <option value="未知">未知</option>
+                                </if>
+                                <if condition="$status eq '未知' ">
+                                    <option value="员工">员工</option>
+                                    <option value="嘉宾">嘉宾</option>
+
+                                </if>
+                                <if condition="$status eq '员工' ">
+                                    <option value="未知">未知</option>
+                                    <option value="嘉宾">嘉宾</option>
+
+                                </if>
+
+
+
+
+                            </select>
+                            <hr>
+                        </div>
+                        <div class="am-form-group">
+                            <label for="doc-ipt-phone-1">允许参加抽奖<a style="color: #4b59ff">  </a></label><br/>
+                            <select id="allow-select" style="width:100px;" name="allow" value="{$allow}">
+
+                                <if condition="$allow eq 1 ">
+                                    <option value="是">是</option>
+                                    <option value="否">否</option>
+                                    <else />
+                                    <option value="否">否</option>
+                                    <option value="是">是</option>
+
+                                </if>
+
+
+
+                            </select>
+                            <hr>
+                        </div>
+
+
+
+                        <p><button type="submit" class="am-btn am-btn-primary am-btn-fr" id="confirmEditSign">提交(Submit)</button></p>
+                    </fieldset>
+                </form>
+
+
+            </div>
+
+        </div>
+    <!-- content end -->
+
+</div>
+
+<a href="#" class="am-icon-btn am-icon-th-list am-show-sm-only admin-menu" data-am-offcanvas="{target: '#admin-offcanvas'}"></a>
+
+<!--[if lt IE 9]>
+<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="Public/amaze-css/assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="Public/amaze-css/assets/js/jquery.min.js"></script>
+<!--<![endif]-->
+<script src="Public/amaze-css/assets/js/amazeui.min.js"></script>
+<script src="Public/amaze-css/assets/js/app.js"></script>
+            <script>/*
+
+            </script>
+</body>
+</html>

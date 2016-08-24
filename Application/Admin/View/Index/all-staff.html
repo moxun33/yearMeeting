@@ -1,0 +1,98 @@
+<include file="Application/Admin/View/Index/sidebar.html" />
+
+<!-- sidebar end -->
+
+    <!-- content start -->
+    <div class="admin-content">
+
+
+
+        <div class="am-g">
+            <div class="am-u-sm-12">
+                <hr/>
+
+                <div class="am-cf am-padding">
+                    <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">首页</strong> / <small>全部员工</small></div>
+
+                    <a href="?s=/Admin/Index/allStaffOutExcel"  class="am-btn am-btn-primary am-round am-fr"
+                       style="margin-top: 10px;">导出到Excel
+                    </a>
+                </div>
+
+                <section class="am-panel am-panel-default">
+                    <header class="am-panel-hd">
+                        <h3 class="am-panel-title">从Excel导入</h3>
+                    </header>
+                    <div class="am-panel-bd" style="height:100px;">
+                        <div class="am-g am-u-sm-6">
+                            <form method="post" action="__ROOT__/?s=/Admin/Index/upload" enctype="multipart/form-data">
+                                <input type="file" name="excelData" />
+                                <button type="submit" class="am-btn am-btn-primary am-round am-fl" style="margin-top: 10px;">提交</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </section>
+
+                <table class="am-table am-table-bd am-table-striped admin-content-table">
+                    <thead>
+                    <tr>
+                        <th>编号</th> <th>姓名</th><th>公司</th><th>身份</th><th>已签到</th><th>奖项</th><th>管理</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <volist name="alllist" id="vol">
+
+
+                        <tr>
+                            <td>{$vol.id}</td>
+                            <td>{$vol.real_name}</td>
+                            <td>{$vol.department}</td>
+                            <td>{$vol.status}</td>
+                            <td>{$vol.signed}</td>
+                            <td>{$vol.level}</td>
+
+                            <td>
+                                <div class="am-dropdown" data-am-dropdown>
+                                    <button class="am-btn am-btn-default am-btn-xs am-dropdown-toggle" data-am-dropdown-toggle><span class="am-icon-cog am-icon-spin"></span> <span class="am-icon-caret-down"></span></button>
+                                    <ul class="am-dropdown-content">
+                                        <li><a href="__ROOT__?s=/Admin/Index/editAllStaff&id={$vol.id}">编辑</a></li>
+                                        <li><a href="__ROOT__?s=/Admin/Index/deleteFromAllStaff&id={$vol.id}">删除</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                    </volist>
+                    </tbody>
+                </table>
+
+
+            </div>
+        </div>
+
+
+
+        <footer>
+            <hr>
+            <p class="am-padding-left">   © 2015 CopyRight.由Machine提供技术支持</p>
+        </footer>
+    </div>
+    <!-- content end -->
+
+</div>
+
+<a href="#" class="am-icon-btn am-icon-th-list am-show-sm-only admin-menu" data-am-offcanvas="{target: '#admin-offcanvas'}"></a>
+
+<!--[if lt IE 9]>
+<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="Public/amaze-css/assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="Public/amaze-css/assets/js/jquery.min.js"></script>
+<!--<![endif]-->
+<script src="Public/amaze-css/assets/js/amazeui.min.js"></script>
+<script src="Public/amaze-css/assets/js/app.js"></script>
+</body>
+</html>

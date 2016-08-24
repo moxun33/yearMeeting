@@ -1,0 +1,37 @@
+
+.grid {
+	width: 90%;
+	height: 500px;
+	margin: 50px auto 50px auto;
+	perspective: 500px; /*For 3d*/
+
+}
+.grid .gridTu{
+    width: 61px;
+    height: 71px;
+    display: block;
+    float: left;
+}
+.grid .gridTu img {
+	width: 61px;
+	height: 61px;
+	display: block;
+	float: left;
+}
+.grid .gridTu p {
+    width: 61px;
+    margin-top: -15px;
+   margin-left: 5px;
+}
+.animate {
+	font: 12px Montserrat;
+	text-transform: uppercase;
+	background: rgb(0, 100, 0);
+	color: white;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.animate:hover {
+	background: rgb(0, 75, 0);
+}

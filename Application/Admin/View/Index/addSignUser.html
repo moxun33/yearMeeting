@@ -1,0 +1,95 @@
+<include file="Application/Admin/View/Index/sidebar.html" />
+
+<!-- sidebar end -->
+
+    <!-- content start -->
+    <div class="admin-content">
+
+        <div class="am-cf am-padding">
+            <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">签到用户</strong> /
+                <small>新增用户</small></div>
+        </div>
+
+        <div class="am-g">
+            <div class="am-u-sm-12">
+
+                <form class="am-form" method="post" action="__ROOT__/?s=/Admin/Index/checkAddUser" enctype="multipart/form-data" >
+
+                    <div class="am-form-group">
+                        <label >真实姓名<a style="color: #4b59ff"></a></label>
+                        <input type="text" class="" name="real"  placeholder="输入姓名">
+                    </div>
+
+                    <div class="am-form-group">
+                        <label for="doc-ipt-phone-1">手机号码<a style="color: #4b59ff">    </a></label>
+                        <input type="number" class="" name="number" id="doc-ipt-phone-1" placeholder="输入手机号码">
+                    </div>
+                    <div class="am-form-group">
+                        <label for="doc-ipt-phone-1">选择身份(嘉宾不参与抽奖!)<a style="color: #4b59ff">  </a></label><br/>
+                        <label class="am-radio-inline">
+                            <input type="radio"  name="status" value="员工"> 员工
+                        </label>
+                        <label class="am-radio-inline">
+                            <input type="radio" name="status" value="嘉宾">嘉宾
+                        </label>
+                        <label class="am-radio-inline">
+                            <input type="radio" name="status" value="未知">未知
+                        </label>
+                        <hr>
+                    </div>
+
+
+                    <div class="am-form-group">
+                        <label for="doc-ipt-phone-1">是否允许参加抽奖<a style="color: #4b59ff">  </a></label><br/>
+                        <label class="am-radio-inline">
+                            <input type="radio"  name="allowLottery" value='是'> 是
+                        </label>
+                        <label class="am-radio-inline">
+                            <input type="radio" name="allowLottery" value='否'>否
+                        </label>
+
+                    </div>
+                    <hr>
+                    <div class="am-form-group">
+                        <label >真实照片<a style="color: #4b59ff">   支持的格式: jpg,png,gif,bmp;最大尺寸: 2MB</a></label>
+
+
+                        <include file="Application/Admin/View/Public/imgUpload.html"/>
+                    </div>
+
+                    <button type="submit" class="am-btn am-btn-success am-btn-fr">提交</button>
+
+                </form>
+
+
+            </div>
+        </div>
+
+    </div>
+    <!-- content end -->
+
+</div>
+
+<a href="#" class="am-icon-btn am-icon-th-list am-show-sm-only admin-menu" data-am-offcanvas="{target: '#admin-offcanvas'}"></a>
+
+<!--[if lt IE 9]>
+<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="Public/amaze-css/assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="Public/amaze-css/assets/js/jquery.min.js"></script>
+<!--<![endif]-->
+<script src="Public/amaze-css/assets/js/amazeui.min.js"></script>
+<script src="Public/amaze-css/assets/js/app.js"></script>
+<script>
+    $('input[name=allowLottery]').click(function(){
+        var allowLottery = $(this).val();
+       // alert(allowLottery);
+    })
+
+</script>
+
+</body>
+</html>

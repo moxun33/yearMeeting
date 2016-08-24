@@ -1,0 +1,284 @@
+<include file="Application/Admin/View/Index/sidebar.html" />
+
+<!-- sidebar end -->
+
+    <!-- content start -->
+    <div class="admin-content">
+
+
+
+        <div class="am-g">
+            <div class="am-u-sm-12">
+                <hr/>
+
+                <div class="am-cf am-padding">
+                    <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">首页</strong> / <small>中奖员工列表
+                    </small></div>
+
+                    <a href="">
+                        <button type="button" id="manualFresh" class="am-btn am-btn-success am-round am-fr">手动刷新页面
+                        </button>
+                    </a>
+                </div>
+                <div data-am-widget="tabs" class="am-tabs am-tabs-d2">
+                    <ul class="am-tabs-nav am-cf">
+                        <li class="am-active"><a class='level' href="[data-tab-panel-5]">五等奖</a></li>
+                        <li class=""><a class='level' href="[data-tab-panel-4]">四等奖</a></li>
+                        <li class=""><a class='level' href="[data-tab-panel-3]">三等奖</a></li>
+                        <li class=""><a class='level' href="[data-tab-panel-2]">二等奖</a></li>
+                        <li class=""><a class='level' href="[data-tab-panel-1]">一等奖</a></li>
+                        <li class=""><a class='level' href="[data-tab-panel-0]">特等奖</a></li>
+                    </ul>
+
+
+                    <div class="am-tabs-bd">
+                        <div data-tab-panel-5 class="am-tab-panel am-active">
+                            <table class="am-table am-table-bd am-table-striped admin-content-table">
+                                <thead>
+                                <tr>
+                                    <th>编号</th> <th>姓名</th><th>手机号</th><th>兑奖号</th><th>是否已领奖</th><th>操作</th>
+                                </tr>
+                                </thead>
+                                <tbody >
+                                <volist name="level5List" id="vol5">
+
+
+                                    <tr>
+
+                                        <td>{$vol5.id}</td>
+                                        <td>{$vol5.real_name}</td>
+                                        <td>{$vol5.phone_number}</td>
+                                        <td>{$vol5.lottery_code}</td>
+                                        <td>{$vol5.got_award}</td>
+                                        <td>
+                                            <div class="am-dropdown" data-am-dropdown>
+                                                <button class="am-btn am-btn-default am-btn-xs am-dropdown-toggle" data-am-dropdown-toggle><span class="am-icon-cog am-icon-spin"></span> <span class="am-icon-caret-down"></span></button>
+                                                <ul class="am-dropdown-content">
+                                                    <li><a href="__ROOT__?s=/Admin/Index/changeGotAward&id={$vol5.id}">
+                                                        更改领奖状态</a></li>
+
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </volist>
+
+
+                                </tbody>
+                             </table>
+                        </div>
+                        <div data-tab-panel-4 class="am-tab-panel ">
+                            <table class="am-table am-table-bd am-table-striped admin-content-table">
+                                <thead>
+                                <tr>
+                                    <th>编号</th> <th>姓名</th><th>手机号</th><th>兑奖号</th><th>是否已领奖</th><th>操作</th>
+                                </tr>
+                                </thead>
+                                <tbody >
+                                <volist name="level4List" id="vol4">
+
+
+                                    <tr>
+
+                                        <td>{$vol4.id}</td>
+                                        <td>{$vol4.real_name}</td>
+                                        <td>{$vol4.phone_number}</td>
+                                        <td>{$vol4.lottery_code}</td>
+                                        <td>{$vol4.got_award}</td>
+                                        <td>
+                                            <div class="am-dropdown" data-am-dropdown>
+                                                <button class="am-btn am-btn-default am-btn-xs am-dropdown-toggle" data-am-dropdown-toggle><span class="am-icon-cog am-icon-spin"></span> <span class="am-icon-caret-down"></span></button>
+                                                <ul class="am-dropdown-content">
+                                                    <li><a href="__ROOT__?s=/Admin/Index/changeGotAward&id={$vol4.id}">
+                                                        更改领奖状态</a></li>
+
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </volist>
+
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <div data-tab-panel-3 class="am-tab-panel ">
+                            <table class="am-table am-table-bd am-table-striped admin-content-table">
+                                <thead>
+                                <tr>
+                                    <th>编号</th> <th>姓名</th><th>手机号</th><th>兑奖号</th><th>是否已领奖</th><th>操作</th>
+                                </tr>
+                                </thead>
+                                <tbody >
+                                <volist name="level3List" id="vol3">
+
+
+                                    <tr>
+
+                                        <td>{$vol3.id}</td>
+                                        <td>{$vol3.real_name}</td>
+                                        <td>{$vol3.phone_number}</td>
+                                        <td>{$vol3.lottery_code}</td>
+                                        <td>{$vol3.got_award}</td>
+                                        <td>
+                                            <div class="am-dropdown" data-am-dropdown>
+                                                <button class="am-btn am-btn-default am-btn-xs am-dropdown-toggle" data-am-dropdown-toggle><span class="am-icon-cog am-icon-spin"></span> <span class="am-icon-caret-down"></span></button>
+                                                <ul class="am-dropdown-content">
+                                                    <li><a href="__ROOT__?s=/Admin/Index/changeGotAward&id={$vol3.id}">
+                                                        更改领奖状态</a></li>
+
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </volist>
+
+
+                                </tbody>
+                            </table>
+                              </div>
+
+                        <div data-tab-panel-2 class="am-tab-panel">
+                            <table class="am-table am-table-bd am-table-striped admin-content-table">
+                                <thead>
+                                <tr>
+                                    <th>编号</th> <th>姓名</th><th>手机号</th><th>兑奖号</th><th>是否已领奖</th><th>操作</th>
+                                </tr>
+                                </thead>
+                                <tbody >
+                                <volist name="level2List" id="vol2">
+
+
+                                    <tr>
+
+                                        <td>{$vol2.id}</td>
+                                        <td>{$vol2.real_name}</td>
+                                        <td>{$vol2.phone_number}</td>
+                                        <td>{$vol2.lottery_code}</td>
+                                        <td>{$vol2.got_award}</td>
+                                        <td>
+                                            <div class="am-dropdown" data-am-dropdown>
+                                                <button class="am-btn am-btn-default am-btn-xs am-dropdown-toggle" data-am-dropdown-toggle><span class="am-icon-cog am-icon-spin"></span> <span class="am-icon-caret-down"></span></button>
+                                                <ul class="am-dropdown-content">
+                                                    <li><a href="__ROOT__?s=/Admin/Index/changeGotAward&id={$vol2.id}">
+                                                        更改领奖状态</a></li>
+
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </volist>
+
+
+                                </tbody>
+                            </table>
+                          </div>
+                        <div data-tab-panel-1 class="am-tab-panel ">
+                            <table class="am-table am-table-bd am-table-striped admin-content-table">
+                            <thead>
+                            <tr>
+                                <th>编号</th> <th>姓名</th><th>手机号</th><th>兑奖号</th><th>是否已领奖</th><th>操作</th>
+                            </tr>
+                            </thead>
+                            <tbody >
+                            <volist name="level1List" id="vol1">
+
+
+                                <tr>
+
+                                    <td>{$vol1.id}</td>
+                                    <td>{$vol1.real_name}</td>
+                                    <td>{$vol1.phone_number}</td>
+                                    <td>{$vol1.lottery_code}</td>
+                                    <td>{$vol1.got_award}</td>
+                                    <td>
+                                        <div class="am-dropdown" data-am-dropdown>
+                                            <button class="am-btn am-btn-default am-btn-xs am-dropdown-toggle" data-am-dropdown-toggle><span class="am-icon-cog am-icon-spin"></span> <span class="am-icon-caret-down"></span></button>
+                                            <ul class="am-dropdown-content">
+                                                <li><a href="__ROOT__?s=/Admin/Index/changeGotAward&id={$vol1.id}">
+                                                    更改领奖状态</a></li>
+
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </volist>
+
+
+                            </tbody>
+                            </table>
+                            </div>
+                        <div data-tab-panel-0 class="am-tab-panel ">
+                            <table class="am-table am-table-bd am-table-striped admin-content-table">
+                                <thead>
+                                <tr>
+                                    <th>编号</th> <th>姓名</th><th>手机号</th><th>兑奖号</th><th>是否已领奖</th><th>操作</th>
+                                </tr>
+                                </thead>
+                                <tbody >
+                                <volist name="level0List" id="vol0">
+
+
+                                    <tr>
+
+                                        <td>{$vol0.id}</td>
+                                        <td>{$vol0.real_name}</td>
+                                        <td>{$vol0.phone_number}</td>
+                                        <td>{$vol0.lottery_code}</td>
+                                        <td>{$vol0.got_award}</td>
+                                        <td>
+                                            <div class="am-dropdown" data-am-dropdown>
+                                                <button class="am-btn am-btn-default am-btn-xs am-dropdown-toggle" data-am-dropdown-toggle><span class="am-icon-cog am-icon-spin"></span> <span class="am-icon-caret-down"></span></button>
+                                                <ul class="am-dropdown-content">
+                                                    <li><a href="__ROOT__?s=/Admin/Index/changeGotAward&id={$vol0.id}">
+                                                        更改领奖状态</a></li>
+
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </volist>
+
+
+                                </tbody>
+                            </table>
+                          </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+
+        <footer>
+            <hr>
+            <p class="am-padding-left">   © 2015 CopyRight.由Machine提供技术支持</p>
+        </footer>
+    </div>
+    <!-- content end -->
+
+</div>
+
+<a href="#" class="am-icon-btn am-icon-th-list am-show-sm-only admin-menu" data-am-offcanvas="{target: '#admin-offcanvas'}"></a>
+
+<!--[if lt IE 9]>
+<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="Public/amaze-css/assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="Public/amaze-css/assets/js/jquery.min.js"></script>
+<!--<![endif]-->
+<script src="Public/amaze-css/assets/js/amazeui.min.js"></script>
+<script src="Public/amaze-css/assets/js/app.js"></script>
+<script>
+    $('#manualFresh').click(function(){
+      location.reload();
+    })
+</script>
+</body>
+</html>

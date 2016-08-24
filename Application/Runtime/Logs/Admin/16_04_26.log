@@ -1,0 +1,894 @@
+[ 2016-04-26T09:32:40+08:00 ] ::1 /aliyunHost/lottery/?s=/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0502s ]
+SQL: SHOW COLUMNS FROM `data_sum` [ RunTime:0.0632s ]
+SQL: SELECT * FROM `data_sum` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0045s ]
+SQL: SELECT * FROM `user` ORDER BY sign_time DESC  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000988s ]
+
+[ 2016-04-26T09:35:22+08:00 ] ::1 /aliyunHost/lottery/?s=/Admin/Index/lotteryPage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003657s ]
+SQL: SHOW COLUMNS FROM `award_goods` [ RunTime:0.0203s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0365s ]
+SQL: SELECT * FROM `config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0151s ]
+SQL: SELECT * FROM `award_goods` ORDER BY id  [ RunTime:0.0034s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000422s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002636s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002810s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003833s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004068s ]
+
+[ 2016-04-26T09:35:22+08:00 ] ::1 /aliyunHost/lottery/?s=/Admin/Index/lotteryNowLevel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2016-04-26T09:35:22+08:00 ] ::1 /aliyunHost/lottery/?s=/Admin/Index/lotteryPageAllSignUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `lottery_done` = 0  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001732s ]
+
+[ 2016-04-26T09:35:24+08:00 ] ::1 /aliyunHost/lottery/?s=/Admin/Index/lotteryPageBegin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0032s ]
+SQL: SELECT * FROM user WHERE status="员工"  and lottery_allow=1 and lottery_done=1   ORDER BY rand()
+                LIMIT 20 [ RunTime:0.0236s ]
+NOTIC: [8] Undefined offset: 0 /Library/WebServer/Documents/aliyunHost/lottery/Application/Admin/Controller/IndexController.class.php 第 977 行.
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = null [ RunTime:0.0154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000859s ]
+
+[ 2016-04-26T09:35:28+08:00 ] ::1 /aliyunHost/lottery/?s=/Admin/Index/lotteryPageBegin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM user WHERE status="员工"  and lottery_allow=1 and lottery_done=1   ORDER BY rand()
+                LIMIT 20 [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /Library/WebServer/Documents/aliyunHost/lottery/Application/Admin/Controller/IndexController.class.php 第 977 行.
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = null [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000449s ]
+
+[ 2016-04-26T09:35:28+08:00 ] ::1 /aliyunHost/lottery/?s=/Admin/Index/lotteryPageBegin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0076s ]
+SQL: SELECT * FROM user WHERE status="员工"  and lottery_allow=1 and lottery_done=1   ORDER BY rand()
+                LIMIT 20 [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 /Library/WebServer/Documents/aliyunHost/lottery/Application/Admin/Controller/IndexController.class.php 第 977 行.
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = null [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2016-04-26T09:35:29+08:00 ] ::1 /aliyunHost/lottery/?s=/Admin/Index/lotteryPageBegin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0032s ]
+SQL: SELECT * FROM user WHERE status="员工"  and lottery_allow=1 and lottery_done=1   ORDER BY rand()
+                LIMIT 20 [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /Library/WebServer/Documents/aliyunHost/lottery/Application/Admin/Controller/IndexController.class.php 第 977 行.
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = null [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000419s ]
+
+[ 2016-04-26T09:35:29+08:00 ] ::1 /aliyunHost/lottery/?s=/Admin/Index/lotteryPageBegin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM user WHERE status="员工"  and lottery_allow=1 and lottery_done=1   ORDER BY rand()
+                LIMIT 20 [ RunTime:0.0029s ]
+NOTIC: [8] Undefined offset: 0 /Library/WebServer/Documents/aliyunHost/lottery/Application/Admin/Controller/IndexController.class.php 第 977 行.
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = null [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000543s ]
+
+[ 2016-04-26T09:35:29+08:00 ] ::1 /aliyunHost/lottery/?s=/Admin/Index/lotteryPageBegin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM user WHERE status="员工"  and lottery_allow=1 and lottery_done=1   ORDER BY rand()
+                LIMIT 20 [ RunTime:0.0029s ]
+NOTIC: [8] Undefined offset: 0 /Library/WebServer/Documents/aliyunHost/lottery/Application/Admin/Controller/IndexController.class.php 第 977 行.
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = null [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2016-04-26T09:36:59+08:00 ] ::1 /aliyunHost/lottery/?s=/Admin/Index/lotteryPageBegin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003998s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003532s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM user WHERE status="员工"  and lottery_allow=1 and lottery_done=1   ORDER BY rand()
+                LIMIT 20 [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /Library/WebServer/Documents/aliyunHost/lottery/Application/Admin/Controller/IndexController.class.php 第 977 行.
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = null [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006645s ]
+
+[ 2016-04-26T09:37:00+08:00 ] ::1 /aliyunHost/lottery/?s=/Admin/Index/lotteryPageBegin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM user WHERE status="员工"  and lottery_allow=1 and lottery_done=1   ORDER BY rand()
+                LIMIT 20 [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /Library/WebServer/Documents/aliyunHost/lottery/Application/Admin/Controller/IndexController.class.php 第 977 行.
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = null [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2016-04-26T09:37:00+08:00 ] ::1 /aliyunHost/lottery/?s=/Admin/Index/lotteryPageBegin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM user WHERE status="员工"  and lottery_allow=1 and lottery_done=1   ORDER BY rand()
+                LIMIT 20 [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /Library/WebServer/Documents/aliyunHost/lottery/Application/Admin/Controller/IndexController.class.php 第 977 行.
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = null [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2016-04-26T09:37:01+08:00 ] ::1 /aliyunHost/lottery/?s=/Admin/Index/lotteryPageBegin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM user WHERE status="员工"  and lottery_allow=1 and lottery_done=1   ORDER BY rand()
+                LIMIT 20 [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /Library/WebServer/Documents/aliyunHost/lottery/Application/Admin/Controller/IndexController.class.php 第 977 行.
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = null [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2016-04-26T09:39:00+08:00 ] ::1 /aliyunHost/lottery/?s=/Admin/Index/lotteryPage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003698s ]
+SQL: SHOW COLUMNS FROM `award_goods` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `award_goods` ORDER BY id  [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000332s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042334s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001717s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001896s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004268s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004425s ]
+
+[ 2016-04-26T09:39:01+08:00 ] ::1 /aliyunHost/lottery/?s=/Admin/Index/lotteryPageAllSignUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `lottery_done` = 0  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000829s ]
+
+[ 2016-04-26T09:39:01+08:00 ] ::1 /aliyunHost/lottery/?s=/Admin/Index/lotteryNowLevel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000952s ]
+
+[ 2016-04-26T09:39:04+08:00 ] ::1 /aliyunHost/lottery/?s=/Admin/Index/lotteryPageBegin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM user WHERE status="员工"  and lottery_allow=1 and lottery_done=1   ORDER BY rand()
+                LIMIT 20 [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 /Library/WebServer/Documents/aliyunHost/lottery/Application/Admin/Controller/IndexController.class.php 第 977 行.
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = null [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2016-04-26T09:39:43+08:00 ] ::1 /aliyunHost/lottery/?s=/Admin/Index/lotteryPageBegin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004210s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM user WHERE status="员工"  and lottery_allow=1 and lottery_done=1   ORDER BY rand()
+                LIMIT 20 [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /Library/WebServer/Documents/aliyunHost/lottery/Application/Admin/Controller/IndexController.class.php 第 977 行.
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = null [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002547s ]
+
+[ 2016-04-26T09:40:35+08:00 ] ::1 /aliyunHost/lottery/?s=/Admin/Index/lotteryPageBegin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003775s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM user WHERE status="员工"  and lottery_allow=1 and lottery_done=0   ORDER BY rand()
+                LIMIT 20 [ RunTime:0.0034s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 16 [ RunTime:0.0168s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 17 [ RunTime:0.0005s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 12 [ RunTime:0.0004s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 7 [ RunTime:0.0003s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 37 [ RunTime:0.0003s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 29 [ RunTime:0.0003s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 41 [ RunTime:0.0004s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 34 [ RunTime:0.0003s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 10 [ RunTime:0.0003s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 3 [ RunTime:0.0003s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 51 [ RunTime:0.0003s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 8 [ RunTime:0.0003s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 35 [ RunTime:0.0003s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 25 [ RunTime:0.0003s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 30 [ RunTime:0.0004s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 28 [ RunTime:0.0004s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 26 [ RunTime:0.0003s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 9 [ RunTime:0.0003s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 38 [ RunTime:0.0004s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 24 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 20 /Library/WebServer/Documents/aliyunHost/lottery/Application/Admin/Controller/IndexController.class.php 第 977 行.
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = null [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005419s ]
+
+[ 2016-04-26T09:40:37+08:00 ] ::1 /aliyunHost/lottery/?s=/Admin/Index/lotteryPage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `award_goods` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `award_goods` ORDER BY id  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040972s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001189s ]
+
+[ 2016-04-26T09:40:38+08:00 ] ::1 /aliyunHost/lottery/?s=/Admin/Index/lotteryNowLevel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000668s ]
+
+[ 2016-04-26T09:40:38+08:00 ] ::1 /aliyunHost/lottery/?s=/Admin/Index/lotteryPageAllSignUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `lottery_done` = 0  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000790s ]
+
+[ 2016-04-26T09:40:39+08:00 ] ::1 /aliyunHost/lottery/?s=/Admin/Index/lotteryPageBegin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM user WHERE status="员工"  and lottery_allow=1 and lottery_done=0   ORDER BY rand()
+                LIMIT 20 [ RunTime:0.0009s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 41 [ RunTime:0.0004s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 13 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 6 [ RunTime:0.0001s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 14 [ RunTime:0.0001s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 27 [ RunTime:0.0001s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 17 [ RunTime:0.0001s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 18 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 3 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 9 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 12 [ RunTime:0.0001s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 26 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 15 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 2 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 28 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 8 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 16 [ RunTime:0.0003s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 20 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 38 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 29 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 39 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 20 /Library/WebServer/Documents/aliyunHost/lottery/Application/Admin/Controller/IndexController.class.php 第 977 行.
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = null [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2016-04-26T09:40:49+08:00 ] ::1 /aliyunHost/lottery/?s=/Admin/Index/lotteryPageBegin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001365s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM user WHERE status="员工"  and lottery_allow=1 and lottery_done=0   ORDER BY rand()
+                LIMIT 20 [ RunTime:0.0009s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 6 [ RunTime:0.0003s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 4 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 20 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 1 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 17 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 15 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 21 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 29 [ RunTime:0.0005s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 2 [ RunTime:0.0003s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 12 [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 11 [ RunTime:0.0003s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 16 [ RunTime:0.0004s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 5 [ RunTime:0.0005s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 39 [ RunTime:0.0003s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 27 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 7 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 19 [ RunTime:0.0003s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 3 [ RunTime:0.0003s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 30 [ RunTime:0.0003s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 9 [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 20 /Library/WebServer/Documents/aliyunHost/lottery/Application/Admin/Controller/IndexController.class.php 第 977 行.
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = null [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2016-04-26T09:41:57+08:00 ] ::1 /aliyunHost/lottery/?s=/Admin/Index/lotteryPageBegin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM user WHERE status="员工"  and lottery_allow=1 and lottery_done=0   ORDER BY rand()
+                LIMIT 20 [ RunTime:0.0012s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 7 [ RunTime:0.0004s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 20 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 40 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 19 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 10 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 13 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 16 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 41 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 21 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 39 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 6 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 24 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 14 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 32 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 28 [ RunTime:0.0003s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 51 [ RunTime:0.0004s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 29 [ RunTime:0.0003s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 9 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 30 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 12 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 20 /Library/WebServer/Documents/aliyunHost/lottery/Application/Admin/Controller/IndexController.class.php 第 977 行.
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = null [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000659s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000765s ]
+
+[ 2016-04-26T09:41:58+08:00 ] 192.168.0.201 /aliyunHost/lottery/?s=/Admin/Index/lotteryPage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `award_goods` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `award_goods` ORDER BY id  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028963s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2016-04-26T09:41:59+08:00 ] 192.168.0.201 /aliyunHost/lottery/?s=/Admin/Index/lotteryPageAllSignUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `lottery_done` = 0  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000546s ]
+
+[ 2016-04-26T09:41:59+08:00 ] 192.168.0.201 /aliyunHost/lottery/?s=/Admin/Index/lotteryNowLevel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000793s ]
+
+[ 2016-04-26T09:41:59+08:00 ] ::1 /aliyunHost/lottery/?s=/Admin/Index/lotteryPage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `award_goods` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `award_goods` ORDER BY id  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021394s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000954s ]
+
+[ 2016-04-26T09:41:59+08:00 ] ::1 /aliyunHost/lottery/?s=/Admin/Index/lotteryNowLevel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001900s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000630s ]
+
+[ 2016-04-26T09:41:59+08:00 ] ::1 /aliyunHost/lottery/?s=/Admin/Index/lotteryPageAllSignUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `user` WHERE `lottery_done` = 0  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000794s ]
+
+[ 2016-04-26T09:42:01+08:00 ] ::1 /aliyunHost/lottery/?s=/Admin/Index/lotteryPageBegin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM user WHERE status="员工"  and lottery_allow=1 and lottery_done=0   ORDER BY rand()
+                LIMIT 20 [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 11 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 12 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 41 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 24 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 6 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 39 [ RunTime:0.0003s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 15 [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 2 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 37 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 38 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 26 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 23 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 28 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 27 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 25 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 40 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 17 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 34 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 7 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 20 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 20 /Library/WebServer/Documents/aliyunHost/lottery/Application/Admin/Controller/IndexController.class.php 第 977 行.
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = null [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2016-04-26T09:45:28+08:00 ] ::1 /aliyunHost/lottery/?s=/Admin/Index/lotteryNowLevel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003764s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006215s ]
+
+[ 2016-04-26T09:45:28+08:00 ] ::1 /aliyunHost/lottery/?s=/Admin/Index/lotteryPageAllSignUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003792s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `lottery_done` = 0  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000933s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001085s ]
+
+[ 2016-04-26T09:45:30+08:00 ] ::1 /aliyunHost/lottery/?s=/Admin/Index/lotteryPageBegin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM user WHERE status="员工"  and lottery_allow=1 and lottery_done=0   ORDER BY rand()
+                LIMIT 20 [ RunTime:0.0007s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 9 [ RunTime:0.0003s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 28 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 30 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 29 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 38 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 17 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 6 [ RunTime:0.0003s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 13 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 5 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 2 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 40 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 18 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 24 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 34 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 20 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 14 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 26 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 12 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 16 [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = 27 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 20 /Library/WebServer/Documents/aliyunHost/lottery/Application/Admin/Controller/IndexController.class.php 第 977 行.
+SQL: UPDATE `user` SET `lottery_done`='0' WHERE `id` = null [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000426s ]
+
+[ 2016-04-26T09:49:30+08:00 ] ::1 /aliyunHost/lottery/?s=/Admin/Index/lotteryPage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003822s ]
+SQL: SHOW COLUMNS FROM `award_goods` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `award_goods` ORDER BY id  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000322s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001777s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001911s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003940s ]
+
+[ 2016-04-26T09:49:30+08:00 ] ::1 /aliyunHost/lottery/?s=/Admin/Index/lotteryNowLevel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2016-04-26T09:49:30+08:00 ] ::1 /aliyunHost/lottery/?s=/Admin/Index/lotteryPageAllSignUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `lottery_done` = 0  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000791s ]
+
+[ 2016-04-26T09:50:48+08:00 ] ::1 /aliyunHost/lottery/?s=/Admin/Index/lotteryPage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003786s ]
+SQL: SHOW COLUMNS FROM `award_goods` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `award_goods` ORDER BY id  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016998s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001675s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004213s ]
+
+[ 2016-04-26T09:50:49+08:00 ] ::1 /aliyunHost/lottery/?s=/Admin/Index/lotteryNowLevel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001914s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000593s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2016-04-26T09:50:49+08:00 ] ::1 /aliyunHost/lottery/?s=/Admin/Index/lotteryPageAllSignUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010225s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `lottery_done` = 0  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001006s ]
+
+[ 2016-04-26T09:50:58+08:00 ] ::1 /aliyunHost/lottery/?s=/Admin/Index/lotteryPage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+SQL: SHOW COLUMNS FROM `award_goods` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `award_goods` ORDER BY id  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000997s ]
+
+[ 2016-04-26T09:50:58+08:00 ] ::1 /aliyunHost/lottery/?s=/Admin/Index/lotteryPageAllSignUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user` WHERE `lottery_done` = 0  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000744s ]
+
+[ 2016-04-26T09:50:58+08:00 ] ::1 /aliyunHost/lottery/?s=/Admin/Index/lotteryNowLevel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004937s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001058s ]
+

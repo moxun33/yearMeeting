@@ -1,0 +1,2178 @@
+[ 2016-01-20T17:26:26+08:00 ] ::1 /aliyunHost/yearMeeting/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004660s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002431s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003993s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004091s ]
+
+[ 2016-01-20T17:27:23+08:00 ] ::1 /aliyunHost/yearMeeting/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003881s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004387s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004180s ]
+
+[ 2016-01-20T17:28:35+08:00 ] ::1 /aliyunHost/yearMeeting/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004456s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001708s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001805s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004675s ]
+
+[ 2016-01-20T17:28:46+08:00 ] ::1 /aliyunHost/yearMeeting/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006875s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013263s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000820s ]
+
+[ 2016-01-20T17:29:22+08:00 ] ::1 /aliyunHost/yearMeeting/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004370s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015535s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015669s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001784s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001881s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004235s ]
+
+[ 2016-01-20T17:29:28+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/home/Index/signPage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000353s ]
+
+[ 2016-01-20T17:30:41+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/home/Index/signPage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020166s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000974s ]
+
+[ 2016-01-20T17:30:56+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/home/Index/signPage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006691s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003018s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045943s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007981s ]
+
+[ 2016-01-20T17:31:00+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/home/Index/signPage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000787s ]
+
+[ 2016-01-20T17:31:04+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/home/Index/signPage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002990s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011247s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011339s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000783s ]
+
+[ 2016-01-20T18:51:13+08:00 ] ::1 /aliyunHost/yearMeeting/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004216s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026232s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001604s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004153s ]
+
+[ 2016-01-20T18:52:01+08:00 ] ::1 /aliyunHost/yearMeeting/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003886s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004257s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016288s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004682s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002022s ]
+
+[ 2016-01-20T18:52:07+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/home/Index/signPage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001406s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000402s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2016-01-20T18:52:50+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Home/Index/checkSignIn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004170s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.1011s ]
+SQL: SHOW COLUMNS FROM `all_staff` [ RunTime:0.0642s ]
+SQL: SELECT * FROM `all_staff` WHERE `real_name` = '2134' LIMIT 1   [ RunTime:0.0658s ]
+SQL: SELECT * FROM `user` WHERE `real_name` = '2134' LIMIT 1   [ RunTime:0.0740s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload/Driver/Qiniu/QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload/Driver/Qiniu/QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload/Driver/Qiniu/QiniuStorage.class.php 第 83 行.
+SQL: INSERT INTO `user` (`real_name`,`phone_number`,`status`,`lottery_done`,`lottery_allow`,`avatar_url`,`sign_time`) VALUES ('2134','213456','未知身份','0','0','http://7xkr3w.com1.z0.glb.clouddn.com/2016-01-20_569f67000ba95.png','2016-01-20 18:52:49') [ RunTime:0.0707s ]
+SQL: SHOW COLUMNS FROM `data_sum` [ RunTime:0.0842s ]
+SQL: SELECT * FROM `data_sum` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0707s ]
+SQL: UPDATE `data_sum` SET `latest_sign_number`='1' WHERE ( id=1 ) [ RunTime:0.0798s ]
+SQL: UPDATE `data_sum` SET `last_sign_time`='1453287170',`total_sign_number`='44' WHERE ( id=1 ) [ RunTime:0.0894s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002921s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003015s ]
+
+[ 2016-01-20T18:52:50+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/home/Index/signPage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024990s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001744s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000643s ]
+
+[ 2016-01-20T19:02:26+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/home/Index/signPage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004269s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031776s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003971s ]
+
+[ 2016-01-20T19:02:40+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Home/Index/checkSignIn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004085s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0729s ]
+SQL: SHOW COLUMNS FROM `all_staff` [ RunTime:0.0718s ]
+SQL: SELECT * FROM `all_staff` WHERE `real_name` = '323434' LIMIT 1   [ RunTime:0.0903s ]
+SQL: SELECT * FROM `user` WHERE `real_name` = '323434' LIMIT 1   [ RunTime:0.0772s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload/Driver/Qiniu/QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload/Driver/Qiniu/QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload/Driver/Qiniu/QiniuStorage.class.php 第 83 行.
+SQL: INSERT INTO `user` (`real_name`,`phone_number`,`status`,`lottery_done`,`lottery_allow`,`avatar_url`,`sign_time`) VALUES ('323434','2134','未知身份','0','0','http://7xkr3w.com1.z0.glb.clouddn.com/2016-01-20_569f694e1afe3.png','2016-01-20 19:02:40') [ RunTime:0.0784s ]
+SQL: SHOW COLUMNS FROM `data_sum` [ RunTime:0.0822s ]
+SQL: SELECT * FROM `data_sum` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0743s ]
+SQL: UPDATE `data_sum` SET `latest_sign_number`='1' WHERE ( id=1 ) [ RunTime:0.0925s ]
+SQL: UPDATE `data_sum` SET `last_sign_time`='1453287760',`total_sign_number`='45' WHERE ( id=1 ) [ RunTime:0.0966s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Undefined variable: signed /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001851s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001920s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004199s ]
+
+[ 2016-01-20T19:03:22+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Home/Index/checkSignIn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003887s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006691s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0873s ]
+SQL: SHOW COLUMNS FROM `all_staff` [ RunTime:0.0715s ]
+SQL: SELECT * FROM `all_staff` WHERE `real_name` = '323434' LIMIT 1   [ RunTime:0.0738s ]
+SQL: SELECT * FROM `user` WHERE `real_name` = '323434' LIMIT 1   [ RunTime:0.0867s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000703s ]
+
+[ 2016-01-20T19:03:34+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Home/Index/checkSignIn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003994s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003846s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0908s ]
+SQL: SHOW COLUMNS FROM `all_staff` [ RunTime:0.0766s ]
+SQL: SELECT * FROM `all_staff` WHERE `real_name` = '32343422' LIMIT 1   [ RunTime:0.0791s ]
+SQL: SELECT * FROM `user` WHERE `real_name` = '32343422' LIMIT 1   [ RunTime:0.0773s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload/Driver/Qiniu/QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload/Driver/Qiniu/QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload/Driver/Qiniu/QiniuStorage.class.php 第 83 行.
+SQL: INSERT INTO `user` (`real_name`,`phone_number`,`status`,`lottery_done`,`lottery_allow`,`avatar_url`,`sign_time`) VALUES ('32343422','2134','未知身份','0','0','http://7xkr3w.com1.z0.glb.clouddn.com/2016-01-20_569f698512e7c.png','2016-01-20 19:03:33') [ RunTime:0.0726s ]
+SQL: SHOW COLUMNS FROM `data_sum` [ RunTime:0.0728s ]
+SQL: SELECT * FROM `data_sum` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0741s ]
+SQL: UPDATE `data_sum` SET `latest_sign_number`='2' WHERE ( id=1 ) [ RunTime:0.0761s ]
+SQL: UPDATE `data_sum` SET `last_sign_time`='1453287814',`total_sign_number`='46' WHERE ( id=1 ) [ RunTime:0.0780s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8] Undefined variable: signed /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010634s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002327s ]
+
+[ 2016-01-20T19:03:59+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/home/Index/signPage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004665s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025419s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001886s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001958s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004252s ]
+
+[ 2016-01-20T19:04:13+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Home/Index/checkSignIn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004220s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0825s ]
+SQL: SHOW COLUMNS FROM `all_staff` [ RunTime:0.0813s ]
+SQL: SELECT * FROM `all_staff` WHERE `real_name` = 'sds' LIMIT 1   [ RunTime:0.0721s ]
+SQL: SELECT * FROM `user` WHERE `real_name` = 'sds' LIMIT 1   [ RunTime:0.0761s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload/Driver/Qiniu/QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload/Driver/Qiniu/QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload/Driver/Qiniu/QiniuStorage.class.php 第 83 行.
+SQL: INSERT INTO `user` (`real_name`,`phone_number`,`status`,`lottery_done`,`lottery_allow`,`avatar_url`,`sign_time`) VALUES ('sds','2134545432','未知身份','0','0','http://7xkr3w.com1.z0.glb.clouddn.com/2016-01-20_569f69aca5ae4.jpg','2016-01-20 19:04:13') [ RunTime:0.0764s ]
+SQL: SHOW COLUMNS FROM `data_sum` [ RunTime:0.0891s ]
+SQL: SELECT * FROM `data_sum` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0734s ]
+SQL: UPDATE `data_sum` SET `latest_sign_number`='3' WHERE ( id=1 ) [ RunTime:0.1064s ]
+SQL: UPDATE `data_sum` SET `last_sign_time`='1453287853',`total_sign_number`='47' WHERE ( id=1 ) [ RunTime:0.0767s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018663s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001901s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001970s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004135s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004227s ]
+
+[ 2016-01-20T19:07:31+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Home/Index/checkSignIn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003565s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0695s ]
+SQL: SHOW COLUMNS FROM `all_staff` [ RunTime:0.0697s ]
+SQL: SELECT * FROM `all_staff` WHERE `real_name` = 'sds33' LIMIT 1   [ RunTime:0.0734s ]
+SQL: SELECT * FROM `user` WHERE `real_name` = 'sds33' LIMIT 1   [ RunTime:0.0800s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload/Driver/Qiniu/QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload/Driver/Qiniu/QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload/Driver/Qiniu/QiniuStorage.class.php 第 83 行.
+SQL: INSERT INTO `user` (`real_name`,`phone_number`,`status`,`lottery_done`,`lottery_allow`,`avatar_url`,`sign_time`) VALUES ('sds33','2134545432','未知身份','0','0','http://7xkr3w.com1.z0.glb.clouddn.com/2016-01-20_569f6a70bbd64.jpg','2016-01-20 19:07:30') [ RunTime:0.0793s ]
+SQL: SHOW COLUMNS FROM `data_sum` [ RunTime:0.0765s ]
+SQL: SELECT * FROM `data_sum` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0699s ]
+SQL: UPDATE `data_sum` SET `latest_sign_number`='1' WHERE ( id=1 ) [ RunTime:0.0834s ]
+SQL: UPDATE `data_sum` SET `last_sign_time`='1453288050',`total_sign_number`='48' WHERE ( id=1 ) [ RunTime:0.0733s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004179s ]
+
+[ 2016-01-20T19:08:16+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004217s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020259s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004148s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004246s ]
+
+[ 2016-01-20T19:08:22+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/home/Index/signPage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017082s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000635s ]
+
+[ 2016-01-20T19:08:36+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Home/Index/checkSignIn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004351s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0684s ]
+SQL: SHOW COLUMNS FROM `all_staff` [ RunTime:0.0740s ]
+SQL: SELECT * FROM `all_staff` WHERE `real_name` = '12213d' LIMIT 1   [ RunTime:0.0647s ]
+SQL: SELECT * FROM `user` WHERE `real_name` = '12213d' LIMIT 1   [ RunTime:0.0772s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload/Driver/Qiniu/QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload/Driver/Qiniu/QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload/Driver/Qiniu/QiniuStorage.class.php 第 83 行.
+SQL: INSERT INTO `user` (`real_name`,`phone_number`,`status`,`lottery_done`,`lottery_allow`,`avatar_url`,`sign_time`) VALUES ('12213d','128765432','未知身份','0','0','http://7xkr3w.com1.z0.glb.clouddn.com/2016-01-20_569f6ab34c192.jpg','2016-01-20 19:08:35') [ RunTime:0.0970s ]
+SQL: SHOW COLUMNS FROM `data_sum` [ RunTime:0.0800s ]
+SQL: SELECT * FROM `data_sum` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0742s ]
+SQL: UPDATE `data_sum` SET `latest_sign_number`='2' WHERE ( id=1 ) [ RunTime:0.0856s ]
+SQL: UPDATE `data_sum` SET `last_sign_time`='1453288116',`total_sign_number`='49' WHERE ( id=1 ) [ RunTime:0.0717s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018671s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002004s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003987s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004077s ]
+
+[ 2016-01-20T19:09:27+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Home/Index/checkSignIn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004396s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0704s ]
+SQL: SHOW COLUMNS FROM `all_staff` [ RunTime:0.0673s ]
+SQL: SELECT * FROM `all_staff` WHERE `real_name` = '12213d3' LIMIT 1   [ RunTime:0.0789s ]
+SQL: SELECT * FROM `user` WHERE `real_name` = '12213d3' LIMIT 1   [ RunTime:0.0776s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload/Driver/Qiniu/QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload/Driver/Qiniu/QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload/Driver/Qiniu/QiniuStorage.class.php 第 83 行.
+SQL: INSERT INTO `user` (`real_name`,`phone_number`,`status`,`lottery_done`,`lottery_allow`,`avatar_url`,`sign_time`) VALUES ('12213d3','128765432','未知身份','0','0','http://7xkr3w.com1.z0.glb.clouddn.com/2016-01-20_569f6ae65a0e1.jpg','2016-01-20 19:09:26') [ RunTime:0.0768s ]
+SQL: SHOW COLUMNS FROM `data_sum` [ RunTime:0.0884s ]
+SQL: SELECT * FROM `data_sum` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0728s ]
+SQL: UPDATE `data_sum` SET `latest_sign_number`='3' WHERE ( id=1 ) [ RunTime:0.0735s ]
+SQL: UPDATE `data_sum` SET `last_sign_time`='1453288167',`total_sign_number`='50' WHERE ( id=1 ) [ RunTime:0.0836s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004144s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004232s ]
+
+[ 2016-01-20T19:09:37+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023944s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024060s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001894s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001988s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004900s ]
+
+[ 2016-01-20T19:09:39+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/home/Index/signPage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000791s ]
+
+[ 2016-01-20T19:09:53+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Home/Index/checkSignIn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0682s ]
+SQL: SHOW COLUMNS FROM `all_staff` [ RunTime:0.0638s ]
+SQL: SELECT * FROM `all_staff` WHERE `real_name` = 'kljlkh' LIMIT 1   [ RunTime:0.0654s ]
+SQL: SELECT * FROM `user` WHERE `real_name` = 'kljlkh' LIMIT 1   [ RunTime:0.0654s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload/Driver/Qiniu/QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload/Driver/Qiniu/QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload/Driver/Qiniu/QiniuStorage.class.php 第 83 行.
+SQL: INSERT INTO `user` (`real_name`,`phone_number`,`status`,`lottery_done`,`lottery_allow`,`avatar_url`,`sign_time`) VALUES ('kljlkh','4567890','未知身份','0','0','http://7xkr3w.com1.z0.glb.clouddn.com/2016-01-20_569f6b0082423.png','2016-01-20 19:09:52') [ RunTime:0.0692s ]
+SQL: SHOW COLUMNS FROM `data_sum` [ RunTime:0.0667s ]
+SQL: SELECT * FROM `data_sum` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0668s ]
+SQL: UPDATE `data_sum` SET `latest_sign_number`='4' WHERE ( id=1 ) [ RunTime:0.0726s ]
+SQL: UPDATE `data_sum` SET `last_sign_time`='1453288193',`total_sign_number`='51' WHERE ( id=1 ) [ RunTime:0.0714s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010992s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000668s ]
+
+[ 2016-01-20T19:11:39+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004232s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019938s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001697s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001809s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004676s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004774s ]
+
+[ 2016-01-20T19:11:41+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/home/Index/signPage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2016-01-20T19:11:53+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Home/Index/checkSignIn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0745s ]
+
+[ 2016-01-20T19:12:52+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Home/Index/checkSignIn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003821s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004078s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0671s ]
+SQL: SHOW COLUMNS FROM `all_staff` [ RunTime:0.0860s ]
+SQL: SELECT * FROM `all_staff` WHERE `real_name` = 'fdf' LIMIT 1   [ RunTime:0.0744s ]
+SQL: SELECT * FROM `user` WHERE `real_name` = 'fdf' LIMIT 1   [ RunTime:0.0668s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload/Driver/Qiniu/QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload/Driver/Qiniu/QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload/Driver/Qiniu/QiniuStorage.class.php 第 83 行.
+SQL: INSERT INTO `user` (`real_name`,`phone_number`,`status`,`lottery_done`,`lottery_allow`,`avatar_url`,`sign_time`) VALUES ('fdf','1234543','未知身份','0','0','http://7xkr3w.com1.z0.glb.clouddn.com/2016-01-20_569f6bb0ef649.jpg','2016-01-20 19:12:51') [ RunTime:0.0758s ]
+SQL: SHOW COLUMNS FROM `data_sum` [ RunTime:0.0926s ]
+SQL: SELECT * FROM `data_sum` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0692s ]
+SQL: UPDATE `data_sum` SET `latest_sign_number`='1' WHERE ( id=1 ) [ RunTime:0.0741s ]
+SQL: UPDATE `data_sum` SET `last_sign_time`='1453288372',`total_sign_number`='52' WHERE ( id=1 ) [ RunTime:0.0820s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001846s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001916s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004120s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004210s ]
+
+[ 2016-01-20T19:15:12+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004988s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015973s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016059s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002841s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001656s ]
+
+[ 2016-01-20T19:15:14+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/home/Index/signPage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009881s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000444s ]
+
+[ 2016-01-20T19:19:22+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004237s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 29 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021973s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001744s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001813s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001224s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001313s ]
+
+[ 2016-01-20T19:21:53+08:00 ] 192.168.0.197 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003838s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004172s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 29 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001798s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001868s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004360s ]
+
+[ 2016-01-20T19:22:06+08:00 ] 192.168.0.197 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 29 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009931s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009987s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000765s ]
+
+[ 2016-01-20T19:22:24+08:00 ] 192.168.0.197 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004202s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 29 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020039s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001770s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001841s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004401s ]
+
+[ 2016-01-20T19:22:44+08:00 ] 192.168.0.197 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004114s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 29 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019833s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004359s ]
+
+[ 2016-01-20T19:23:03+08:00 ] 192.168.0.197 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004042s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 29 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020307s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020408s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001790s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004222s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004315s ]
+
+[ 2016-01-20T19:23:24+08:00 ] 192.168.0.197 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004319s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 29 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019482s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001722s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001790s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007835s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007938s ]
+
+[ 2016-01-20T19:23:27+08:00 ] 192.168.0.197 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000019s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 29 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000290s ]
+
+[ 2016-01-20T19:23:44+08:00 ] 192.168.0.197 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004124s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 29 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019692s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019775s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001789s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004170s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004261s ]
+
+[ 2016-01-20T19:24:00+08:00 ] 192.168.0.197 /aliyunHost/yearMeeting/?s=/home/Index/signPage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004158s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021736s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003978s ]
+
+[ 2016-01-20T19:24:17+08:00 ] 192.168.0.197 /aliyunHost/yearMeeting/?s=/home/Index/signPage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004159s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024870s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001715s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004463s ]
+
+[ 2016-01-20T19:24:19+08:00 ] 192.168.0.197 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 29 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008256s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000695s ]
+
+[ 2016-01-20T19:24:21+08:00 ] 192.168.0.197 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 29 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003896s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2016-01-20T19:24:29+08:00 ] 192.168.0.197 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 29 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004633s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2016-01-20T19:24:35+08:00 ] 192.168.0.197 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 29 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004561s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2016-01-20T19:24:46+08:00 ] 192.168.0.197 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 29 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006299s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000451s ]
+
+[ 2016-01-20T19:25:36+08:00 ] 192.168.0.197 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 29 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001850s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001918s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004095s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004171s ]
+
+[ 2016-01-20T19:25:45+08:00 ] 192.168.0.197 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 29 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2016-01-20T19:25:49+08:00 ] 192.168.0.197 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000047s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 29 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000282s ]
+
+[ 2016-01-20T19:25:57+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 31 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008281s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000447s ]
+
+[ 2016-01-20T19:25:59+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002201s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 31 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000452s ]
+
+[ 2016-01-20T19:26:07+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 31 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004675s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000712s ]
+
+[ 2016-01-20T19:26:13+08:00 ] 192.168.0.197 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 31 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009546s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000345s ]
+
+[ 2016-01-20T19:26:23+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 31 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004295s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2016-01-20T19:26:30+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 31 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005486s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000817s ]
+
+[ 2016-01-20T19:26:35+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006260s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 31 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017457s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000594s ]
+
+[ 2016-01-20T19:26:41+08:00 ] 192.168.0.197 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 31 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000444s ]
+
+[ 2016-01-20T19:27:00+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 31 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006255s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2016-01-20T19:27:03+08:00 ] 192.168.0.197 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 31 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010360s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2016-01-20T19:27:23+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004335s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 31 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028269s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005741s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006418s ]
+
+[ 2016-01-20T19:27:25+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 31 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003984s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000446s ]
+
+[ 2016-01-20T19:27:27+08:00 ] 192.168.0.197 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 31 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000287s ]
+
+[ 2016-01-20T19:27:44+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 28 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 29 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2016-01-20T19:27:47+08:00 ] 192.168.0.197 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000017s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 28 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 29 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004107s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000291s ]
+
+[ 2016-01-20T19:28:06+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 28 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 29 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001981s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002189s ]
+
+[ 2016-01-20T19:28:08+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 28 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 29 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000574s ]
+
+[ 2016-01-20T19:28:12+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 28 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 29 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2016-01-20T19:28:31+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005205s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 28 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 29 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001773s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001829s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007993s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008066s ]
+
+[ 2016-01-20T19:28:50+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 29 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012374s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012411s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001913s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001952s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000659s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2016-01-20T19:28:52+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 29 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005764s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002159s ]
+
+[ 2016-01-20T19:28:54+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 29 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000498s ]
+
+[ 2016-01-20T19:29:06+08:00 ] 192.168.0.197 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003872s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004248s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 29 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019285s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001710s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001779s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004101s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004198s ]
+
+[ 2016-01-20T19:29:08+08:00 ] 192.168.0.197 /aliyunHost/yearMeeting/?s=/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2016-01-20T19:29:10+08:00 ] 192.168.0.197 /aliyunHost/yearMeeting/?s=/home/Index/signPage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012941s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2016-01-20T19:29:11+08:00 ] 192.168.0.197 /aliyunHost/yearMeeting/?s=/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000377s ]
+
+[ 2016-01-20T19:29:13+08:00 ] 192.168.0.197 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000047s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 29 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000284s ]
+
+[ 2016-01-20T19:29:24+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 29 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001731s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001765s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000746s ]
+
+[ 2016-01-20T19:29:27+08:00 ] 192.168.0.197 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000019s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 29 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004350s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2016-01-20T19:29:30+08:00 ] 192.168.0.197 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000053s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 29 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000268s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000293s ]
+
+[ 2016-01-20T19:29:53+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004262s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 29 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016160s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001770s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001839s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004401s ]
+
+[ 2016-01-20T19:29:58+08:00 ] 192.168.0.197 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000019s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 29 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2016-01-20T19:30:05+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 29 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008059s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2016-01-20T19:30:08+08:00 ] 192.168.0.197 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000045s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 29 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003294s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000283s ]
+
+[ 2016-01-20T19:30:17+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 29 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004573s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004612s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000458s ]
+
+[ 2016-01-20T19:30:28+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 30 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005995s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006033s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001148s ]
+
+[ 2016-01-20T19:30:31+08:00 ] 192.168.0.197 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 30 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004980s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2016-01-20T19:30:50+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 30 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025827s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005801s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005848s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006169s ]
+
+[ 2016-01-20T19:30:53+08:00 ] 192.168.0.197 /aliyunHost/yearMeeting/?s=/home/Index/showsuccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 30 行.
+NOTIC: [8] Undefined variable: vipSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000291s ]
+
+[ 2016-01-20T19:30:55+08:00 ] 192.168.0.197 /aliyunHost/yearMeeting/?s=/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005963s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005997s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000290s ]
+
+[ 2016-01-20T19:30:56+08:00 ] 192.168.0.197 /aliyunHost/yearMeeting/?s=/home/Index/signPage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2016-01-20T19:31:42+08:00 ] 192.168.0.197 /aliyunHost/yearMeeting/?s=/Home/Index/checkSignIn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004265s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0877s ]
+SQL: SHOW COLUMNS FROM `all_staff` [ RunTime:0.0872s ]
+SQL: SELECT * FROM `all_staff` WHERE `real_name` = '凸透镜' LIMIT 1   [ RunTime:0.0738s ]
+SQL: SELECT * FROM `user` WHERE `real_name` = '凸透镜' LIMIT 1   [ RunTime:0.0729s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload/Driver/Qiniu/QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload/Driver/Qiniu/QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload/Driver/Qiniu/QiniuStorage.class.php 第 83 行.
+SQL: INSERT INTO `user` (`real_name`,`phone_number`,`status`,`lottery_done`,`lottery_allow`,`avatar_url`,`sign_time`) VALUES ('凸透镜','435866','未知身份','0','0','http://7xkr3w.com1.z0.glb.clouddn.com/2016-01-20_569f70188210e.jpeg','2016-01-20 19:31:42') [ RunTime:0.0756s ]
+SQL: SHOW COLUMNS FROM `data_sum` [ RunTime:0.0713s ]
+SQL: SELECT * FROM `data_sum` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0706s ]
+SQL: UPDATE `data_sum` SET `latest_sign_number`='1' WHERE ( id=1 ) [ RunTime:0.0769s ]
+SQL: UPDATE `data_sum` SET `last_sign_time`='1453289502',`total_sign_number`='55' WHERE ( id=1 ) [ RunTime:0.0741s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000297s ]
+NOTIC: [8] Undefined variable: staffSigned /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Home/9bd8fd3820bd15d76e6d024319b9b9e9.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034878s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001816s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001882s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002926s ]
+
+[ 2016-01-20T19:31:53+08:00 ] 192.168.0.197 /aliyunHost/yearMeeting/?s=/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000292s ]
+
+[ 2016-01-20T19:31:55+08:00 ] 192.168.0.197 /aliyunHost/yearMeeting/?s=/Home/Index/checkSignIn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0832s ]
+SQL: SHOW COLUMNS FROM `all_staff` [ RunTime:0.0852s ]
+SQL: SELECT * FROM `all_staff` WHERE `real_name` = '凸透镜' LIMIT 1   [ RunTime:0.0751s ]
+SQL: SELECT * FROM `user` WHERE `real_name` = '凸透镜' LIMIT 1   [ RunTime:0.0760s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001035s ]
+

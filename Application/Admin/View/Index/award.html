@@ -1,0 +1,111 @@
+
+            <include file="Application/Admin/View/Index/sidebar.html" />
+
+
+    <!-- sidebar end -->
+
+    <!-- content start -->
+    <div class="admin-content">
+
+        <div class="am-cf am-padding">
+            <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">奖品管理</strong> / <small>创建</small></div>
+        </div>
+
+        <div class="am-g">
+            <div class="am-u-sm-12">
+                <form method="post" class="am-form" action="__ROOT__/?s=/Admin/Index/createAward">
+                    <div class="am-form-group">
+
+                        <select id="doc-select-1" style="width:100px;" name="awardLevel">
+                            <option value="特等奖">特等奖</option>
+                            <option value="一等奖">一等奖</option>
+                            <option value="二等奖">二等奖</option>
+                            <option value="三等奖">三等奖</option>
+                            <option value="四等奖">四等奖</option>
+                            <option value="五等奖">五等奖</option>
+                        </select>
+                        <br>
+                        <input style="width:300px;" type="text" class="goodsName" name="goodsName" placeholder="每个等级的奖品名称">
+                        <br>
+                        <input style="width:500px;" type="number" class="goodsNumber"  name="goodsNumber" placeholder="每个等级的奖品数量">
+
+                    </div>
+
+                    <input type="submit" name="" value="提交" class="am-btn am-btn-success am-btn-sm am-fl">
+
+
+                </form>
+
+            </div>
+
+
+
+        </div>
+
+        <hr>
+        <div class="am-cf am-padding">
+            <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">奖品管理</strong> / <small>奖品列表</small></div>
+
+        </div>
+        <div class="am-g">
+            <div class="am-u-sm-12">
+                <table class="am-table am-table-bd am-table-striped admin-content-table">
+                    <thead>
+                    <tr>
+                        <th>等级</th><th>奖品名称</th><th>奖品数量</th><th>管理</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <volist name="awardList" id="vl">
+
+
+                        <tr>
+
+                            <td>{$vl.award_level}</td>
+                            <td>{$vl.goods_name}</td>
+                            <td>{$vl.winner_number}</td>
+                            <td>
+                                <div class="am-dropdown" data-am-dropdown>
+                                    <button class="am-btn am-btn-default am-btn-xs am-dropdown-toggle" data-am-dropdown-toggle><span class="am-icon-cog am-icon-spin"></span> <span class="am-icon-caret-down"></span></button>
+                                    <ul class="am-dropdown-content">
+
+                                        <li><a href="__ROOT__?s=/Admin/Index/editAward&id={$vl.id}">编辑</a></li>
+                                        <li><a href="__ROOT__?s=/Admin/Index/deleteAward&id={$vl.id}">删除</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                    </volist>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+
+
+
+
+        <footer>
+            <hr>
+            <p class="am-padding-left">   © 2015 CopyRight</p>
+        </footer>
+    </div>
+    <!-- content end -->
+
+</div>
+
+<a href="#" class="am-icon-btn am-icon-th-list am-show-sm-only admin-menu" data-am-offcanvas="{target: '#admin-offcanvas'}"></a>
+
+<!--[if lt IE 9]>
+<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="Public/amaze-css/assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="Public/amaze-css/assets/js/jquery.min.js"></script>
+<!--<![endif]-->
+<script src="Public/amaze-css/assets/js/amazeui.min.js"></script>
+<script src="Public/amaze-css/assets/js/app.js"></script>
+</body>
+</html>

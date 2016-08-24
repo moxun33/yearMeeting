@@ -1,0 +1,127 @@
+
+            <include file="Application/Admin/View/Index/sidebar.html" />
+
+
+    <!-- sidebar end -->
+
+    <!-- content start -->
+    <div class="admin-content">
+
+        <div class="am-cf am-padding">
+            <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">员工</strong> / <small>编辑信息</small></div>
+        </div>
+
+        <div class="am-g am-g-fixed">
+            <div class="am-u-sm-12  am-u-sm-centered">
+
+                <form class="am-form" method="post" action="__ROOT__/?s=/Admin/Index/checkEditAllStaff" enctype="multipart/form-data" >
+                    <fieldset>
+                        <input type="hidden" class="" name="id"  value="{$id}" >
+
+                        <div class="am-form-group">
+                            <label >真实姓名<a style="color: #4b59ff">  </a></label>
+                            <input type="text" class="" name="real"  value="{$name}" placeholder="输入真实姓名">
+                        </div>
+
+                        <div class="am-form-group">
+                            <label for="doc-ipt-phone-1">所属部门<a style="color: #4b59ff">  </a></label>
+                            <input type="text" class="" name="belong" id="doc-ipt-phone-1"  value="{$department}" placeholder="">
+                        </div>
+                        <div class="am-form-group">
+                            <label for="status-select">选择身份<a style="color: #4b59ff"> </a></label><br/>
+
+                            <select id="status-select" style="width:100px;" name="status" value="{$status}">
+                                <option value="{$status}" >{$status}</option>
+                                <option value="员工">员工</option>
+                                <option value="嘉宾">嘉宾</option>
+
+
+
+                            </select>
+                            <hr>
+                        </div>
+                       <!-- <div class="am-form-group" id="setLevel">
+                            <if condition="$status eq '员工' ">
+
+                                            <label for="level-select">设置中奖等级<a style="color: #4b59ff"> </a></label><br/>
+
+                                            <select id="level-select" style="width:100px;" name="level" value="{$setLevel}">
+                                                <option value="{$setLevel}" >{$setLevel}</option>
+                                                <option value="特等奖">特等奖</option>
+                                                <option value="一等奖">一等奖</option>
+                                                <option value="二等奖">二等奖</option>
+                                                <option value="三等奖">三等奖</option>
+                                                <option value="五等奖">五等奖</option>
+
+
+                                            </select>
+                                            <hr>
+
+                                <else />
+
+                            </if>
+                        </div>
+-->
+                        <p><button type="submit" class="am-btn am-btn-primary am-btn-fr" id="confirmEditSign">提交</button></p>
+                    </fieldset>
+                </form>
+
+
+            </div>
+
+        </div>
+    <!-- content end -->
+
+</div>
+
+<a href="#" class="am-icon-btn am-icon-th-list am-show-sm-only admin-menu" data-am-offcanvas="{target: '#admin-offcanvas'}"></a>
+
+<!--[if lt IE 9]>
+<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="Public/amaze-css/assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="Public/amaze-css/assets/js/jquery.min.js"></script>
+<!--<![endif]-->
+<script src="Public/amaze-css/assets/js/amazeui.min.js"></script>
+<script src="Public/amaze-css/assets/js/app.js"></script>
+            <script>/*
+                $('#status-select').change(function(){
+                    var status = $(this).val();
+                   // alert (status);
+                    //从嘉宾变为员工,增加抽奖等级选择
+                    if(status==="员工"){
+                        var showLevel ='<label for="level-select">设置中奖等级<a style="color: #4b59ff"> </a></label><br/>'+
+
+                                ' <select id="level-select" style="width:100px;" name="level" value="{$setLevel}">'+
+                                ' <option value="{$setLevel}" >{$setLevel}</option>'+
+                                '<option value="特等奖">特等奖</option>'+
+                                '<option value="一等奖">一等奖</option>'+
+                                '<option value="二等奖">二等奖</option>'+
+                                '<option value="三等奖">三等奖</option>'+
+                                '<option value="五等奖">五等奖</option>'+
+
+
+                                '</select>'+
+                                '<hr>';
+                        $('#setLevel').html(showLevel);
+                    }else{
+                        var showLevel="";
+                        $('#setLevel').html(showLevel);
+                    }
+                });
+                $('#confirmEditSign').click(function(){
+                    var levelValue = $('#level-select').val();
+
+                    if(levelValue!=""){
+                        return;
+                    }else{
+                        alert("请选择等级!");
+                        return false;
+                    }
+                });
+            </script>
+</body>
+</html>

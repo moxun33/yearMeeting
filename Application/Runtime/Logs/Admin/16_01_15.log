@@ -1,0 +1,1198 @@
+[ 2016-01-15T15:43:53+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Admin/Index/unknowSignUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003806s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004135s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0233s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Undefined variable: alllist /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/f7316a18cda17625190282ab040e3f0e.php 第 98 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004092s ]
+
+[ 2016-01-15T15:49:26+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Admin/Index/unknowSignUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006896s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0036s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined variable: unknowUserList /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/f7316a18cda17625190282ab040e3f0e.php 第 98 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015542s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+SQL: SELECT * FROM `user` WHERE `status` = '未知人员'  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000498s ]
+
+[ 2016-01-15T15:52:02+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Admin/Index/unknowSignUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+NOTIC: [8] Undefined variable: unknowUserList /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/f7316a18cda17625190282ab040e3f0e.php 第 98 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006613s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+SQL: SELECT * FROM `user` WHERE `status` = '未知身份'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2016-01-15T15:52:23+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Admin/Index/unknowSignUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `status` = '未知身份'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013815s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000730s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000826s ]
+
+[ 2016-01-15T15:56:07+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Admin/Index/unknowSignUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `status` = '未知身份'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2016-01-15T15:56:08+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Admin/Index/unknowSignUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `status` = '未知身份'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007476s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000435s ]
+
+[ 2016-01-15T15:57:59+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Admin/Index/unknowSignUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `status` = '未知身份'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009494s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2016-01-15T15:58:01+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Admin/Index/unknowSignUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `status` = '未知身份'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005680s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2016-01-15T15:58:57+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Admin/Index/unknowSignUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `status` = '未知'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005758s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000532s ]
+
+[ 2016-01-15T16:00:10+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Admin/Index/unknowSignUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `status` = '未知'  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2016-01-15T16:00:12+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Admin/Index/editUnknowUser&id=42
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+
+[ 2016-01-15T16:00:17+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Admin/Index/deleteUnknowUser&id=44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009198s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000257s ]
+
+[ 2016-01-15T16:00:19+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Admin/Index/deleteUnknowUser&id=42
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000019s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000257s ]
+
+[ 2016-01-15T16:00:28+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `data_sum` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `data_sum` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` ORDER BY sign_time DESC  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015961s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000694s ]
+
+[ 2016-01-15T16:00:55+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Admin/Index/addUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012128s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2016-01-15T16:01:13+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Admin/Index/checkAddUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload/Driver/Qiniu/QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload/Driver/Qiniu/QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Upload/Driver/Qiniu/QiniuStorage.class.php 第 83 行.
+SQL: INSERT INTO `user` (`real_name`,`phone_number`,`status`,`lottery_done`,`lottery_allow`,`avatar_url`,`sign_time`) VALUES ('hj','34565','未知','0','0','http://7xkr3w.com1.z0.glb.clouddn.com/2016-01-15_5698a747a076e.png','2016-01-15 16:01:13') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `data_sum` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `data_sum` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: UPDATE `data_sum` SET `latest_sign_number`='1' WHERE ( id=1 ) [ RunTime:0.0144s ]
+SQL: UPDATE `data_sum` SET `last_sign_time`='1452844873',`total_sign_number`='43' WHERE ( id=1 ) [ RunTime:0.0071s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015528s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2016-01-15T16:01:15+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Admin/Index/addUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2016-01-15T16:01:17+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Admin/Index/unknowSignUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `status` = '未知'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005692s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005729s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2016-01-15T16:04:54+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Admin/Index/showAllStaff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004136s ]
+SQL: SHOW COLUMNS FROM `all_staff` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `all_staff`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+NOTIC: [8] Undefined index: avatar_url /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Runtime/Cache/Admin/c6f30d962657baa0f2f34198a5dc1c5f.php 第 117 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029798s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003227s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003326s ]
+
+[ 2016-01-15T16:04:57+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Admin/Index/editAllStaff&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `all_staff` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `all_staff` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0069s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001193s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001308s ]
+
+[ 2016-01-15T16:05:23+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `data_sum` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `data_sum` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` ORDER BY sign_time DESC  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2016-01-15T16:05:25+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Admin/Index/editSignUser&id=52
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE ( id=52 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: level /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Admin/Controller/IndexController.class.php 第 259 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013811s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2016-01-15T16:05:35+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Admin/Index/checkEditSignUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: UPDATE `user` SET `real_name`='hj',`status`='员工',`phone_number`='34565' WHERE `id` = 52 [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2016-01-15T16:05:36+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `data_sum` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `data_sum` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` ORDER BY sign_time DESC  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000899s ]
+
+[ 2016-01-15T16:06:12+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Admin/Index/editSignUser&id=51
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE ( id=51 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: level /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Admin/Controller/IndexController.class.php 第 259 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000315s ]
+
+[ 2016-01-15T16:08:30+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Admin/Index/editSignUser&id=51
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003911s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE ( id=51 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: level /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Admin/Controller/IndexController.class.php 第 259 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: condition /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Template/TagLib/Cx.class.php 第 140 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+
+[ 2016-01-15T16:08:34+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `data_sum` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `data_sum` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` ORDER BY sign_time DESC  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008957s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001757s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004364s ]
+
+[ 2016-01-15T16:08:37+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Admin/Index/editSignUser&id=52
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE ( id=52 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: level /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Admin/Controller/IndexController.class.php 第 259 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: condition /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Template/TagLib/Cx.class.php 第 140 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+
+[ 2016-01-15T16:08:52+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `data_sum` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `data_sum` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` ORDER BY sign_time DESC  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007591s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2016-01-15T16:08:55+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Admin/Index/editSignUser&id=52
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE ( id=52 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: level /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Admin/Controller/IndexController.class.php 第 259 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: condition /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Template/TagLib/Cx.class.php 第 140 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+
+[ 2016-01-15T16:10:15+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `data_sum` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `data_sum` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` ORDER BY sign_time DESC  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006335s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2016-01-15T16:10:16+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Admin/Index/editSignUser&id=52
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE ( id=52 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: level /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Admin/Controller/IndexController.class.php 第 259 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: condition /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Template/TagLib/Cx.class.php 第 140 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+
+[ 2016-01-15T16:11:45+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Admin/Index/editSignUser&id=52
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE ( id=52 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: level /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Admin/Controller/IndexController.class.php 第 259 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: condition /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Template/TagLib/Cx.class.php 第 140 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+
+[ 2016-01-15T16:11:46+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Admin/Index/editSignUser&id=52
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( id=52 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: level /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Admin/Controller/IndexController.class.php 第 259 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: condition /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Template/TagLib/Cx.class.php 第 140 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+
+[ 2016-01-15T16:13:09+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Admin/Index/editSignUser&id=52
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE ( id=52 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: level /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Admin/Controller/IndexController.class.php 第 259 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006963s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2016-01-15T16:14:25+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Admin/Index/editSignUser&id=52
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE ( id=52 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: level /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Admin/Controller/IndexController.class.php 第 259 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: condition /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Template/TagLib/Cx.class.php 第 140 行.
+NOTIC: [8] Undefined index: condition /Library/WebServer/Documents/aliyunHost/yearMeeting/ThinkPHP/Library/Think/Template/TagLib/Cx.class.php 第 140 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+
+[ 2016-01-15T16:14:45+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Admin/Index/editSignUser&id=52
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE ( id=52 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: level /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Admin/Controller/IndexController.class.php 第 259 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000336s ]
+
+[ 2016-01-15T16:15:17+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Admin/Index/editSignUser&id=52
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE ( id=52 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: level /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Admin/Controller/IndexController.class.php 第 259 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005426s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000322s ]
+
+[ 2016-01-15T16:19:01+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Admin/Index/editSignUser&id=52
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE ( id=52 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: level /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Admin/Controller/IndexController.class.php 第 259 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000290s ]
+
+[ 2016-01-15T16:19:08+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `data_sum` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `data_sum` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` ORDER BY sign_time DESC  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007037s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007076s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2016-01-15T16:19:11+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Admin/Index/editSignUser&id=50
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE ( id=50 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: level /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Admin/Controller/IndexController.class.php 第 259 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000295s ]
+
+[ 2016-01-15T16:19:20+08:00 ] ::1 /aliyunHost/yearMeeting/?s=/Admin/Index/editSignUser&id=44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE ( id=44 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: level /Library/WebServer/Documents/aliyunHost/yearMeeting/Application/Admin/Controller/IndexController.class.php 第 259 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+

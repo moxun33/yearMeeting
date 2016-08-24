@@ -1,0 +1,103 @@
+<include file="Application/Admin/View/Index/sidebar.html" />
+
+<!-- sidebar end -->
+
+    <!-- content start -->
+    <div class="admin-content">
+
+        <div class="am-cf am-padding">
+            <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">首页</strong> / <small>概览</small></div>
+        </div>
+
+        <ul class="am-avg-sm-1 am-avg-md-4 am-margin am-padding am-text-center admin-content-list ">
+
+                       <li><a href="#" class="am-text-success"><span class="am-icon-btn am-icon-file-text"></span><br/>新增签到<br/>{$now_sign_number}</a></li>
+                   <!-- <li><a href="#" class="am-text-warning"><span class="am-icon-btn am-icon-briefcase"></span><br/>已经签到<br/>308</a></li>
+                    -->
+                   <li><a href="#" class="am-text-secondary"><span class="am-icon-btn am-icon-user-md"></span><br/>已经签到<br/>{$total_sign_number}</a></li>
+                    <li><a href="#" class="am-text-danger" ><span class="am-icon-btn am-icon-bookmark" ></span><br/>会议人数<br/>{$total_meeting_number}</a></li>
+
+
+            <li><a href="#" class="am-text-success"><span class="am-icon-btn am-icon-cny"></span><br/>奖品价值<br/>50000
+            </a></li>
+
+        </ul>
+
+        <div class="am-g">
+            <div class="am-u-sm-12">
+                <hr/>
+
+                <div class="am-cf am-padding">
+                    <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">首页</strong> / <small>所有签到用户
+                    </small></div>
+                   <a href="__ROOT__/?s=/Admin/Index/signUserOut">
+                        <button type="button" class="am-btn am-btn-primary am-round am-fr">导出Excel</button>
+                    </a>
+                    <a href="__ROOT__/?s=/Admin/Index/addUser">
+                        <button type="button" class="am-btn am-btn-success am-round am-fr">添加签到用户</button>
+                    </a>
+                </div>
+                <table class="am-table am-table-bd am-table-striped admin-content-table">
+                    <thead>
+                    <tr>
+                        <th>编号</th> <th>姓名</th><th>手机号</th><th>身份</th><th>头像</th><th>签到时间</th><th>管理</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <volist name="list" id="vol">
+
+
+                        <tr>
+
+                            <td>{$vol.id}</td>
+                            <td>{$vol.real_name}</td>
+                            <td>{$vol.phone_number}</td>
+                            <td>{$vol.status}</td>
+                            <td><a href="{$vol.avatar_url}"><img src="{$vol.avatar_url}" style="width:30px;height:30px;"></a></td>
+
+
+                            <td>{$vol.sign_time}</td>
+                            <td>
+                                <div class="am-dropdown" data-am-dropdown>
+                                    <button class="am-btn am-btn-default am-btn-xs am-dropdown-toggle" data-am-dropdown-toggle><span class="am-icon-cog am-icon-spin"></span> <span class="am-icon-caret-down"></span></button>
+                                    <ul class="am-dropdown-content">
+                                        <li><a href="__ROOT__?s=/Admin/Index/editSignUser&id={$vol.id}">编辑</a></li>
+                                        <li><a href="__ROOT__?s=/Admin/Index/deleteUser&id={$vol.id}">删除</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                    </volist>
+                    </tbody>
+                </table>
+
+
+            </div>
+        </div>
+
+
+
+        <footer>
+            <hr>
+            <p class="am-padding-left">   © 2015 CopyRight.由Machine提供技术支持</p>
+        </footer>
+    </div>
+    <!-- content end -->
+
+</div>
+
+<a href="#" class="am-icon-btn am-icon-th-list am-show-sm-only admin-menu" data-am-offcanvas="{target: '#admin-offcanvas'}"></a>
+
+<!--[if lt IE 9]>
+<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="Public/amaze-css/assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="Public/amaze-css/assets/js/jquery.min.js"></script>
+<!--<![endif]-->
+<script src="Public/amaze-css/assets/js/amazeui.min.js"></script>
+<script src="Public/amaze-css/assets/js/app.js"></script>
+</body>
+</html>
